@@ -1,0 +1,22 @@
+@import "../../../styles/scss/fonts.scss";
+@import "../../../styles/scss/variables.scss";
+
+.main-brand {
+  p {
+    font-size: $textFontSize * 2.15;
+    text-shadow: $textShadow;
+    color: $textCol3;
+  }
+}
+
+.shop-cart {
+  padding: 1rem;
+  background: $white;
+  svg {
+    font-size: $textFontSize * 2;
+  }
+  span {
+    font-size: $textFontSize * 0.75;
+    left: -10px;
+  }
+}

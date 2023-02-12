@@ -1,0 +1,27 @@
+@import "./styles/scss/fonts.scss";
+@import "./styles/scss/variables.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $fontFamily2;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: $background;
+  background-image: $backgroundGrag;
+  color: $textCol3;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: $textFontSize;
+}
